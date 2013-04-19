@@ -7,9 +7,9 @@ README = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name = 'tasks',
+    name = 'task',
     version = '0.1',
-    packages = ['tasks'],
+    packages = ['task'],
     include_package_data = True,
     license = 'Creative Commons Attribution-Noncommercial-Share Alike license',
     description = 'A module that enables to utilize semantictasks.',
